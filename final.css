@@ -1,0 +1,78 @@
+body{
+margin:2%;
+background:#d3d3d3;
+background-image: url("cloud.jpg") ;
+background-size:cover;
+background-attachment:fixed;
+}
+
+nav{
+text-align:center;
+
+}
+h1
+{
+text-align:center;
+color:#0000FF;
+background:#00FF00;
+font-family:italic;
+}
+h2
+{
+color:red;
+background:#00FFFF;
+}
+ul
+{
+color:blue;
+
+}
+details
+{
+border:inset;
+color:#808000;
+font-family:italic;
+}
+header{
+padding:10px;
+background:#00FFFF;
+}
+section{
+width:30%;
+display:inline-block;
+float:left;
+margin-right:2%;
+}
+footer
+{background:#FFFFFF;
+clear:both;
+}
+img{
+width:185px;
+}
+summary{
+font-family:normal;
+color:#800000;
+}
+nav a{
+	display: inline-block;
+	background-color: #ffffff;
+	width:22%;
+}
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+
+}
+.half{
+	width:45%;
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
+
+.whole{
+	clear:both;
